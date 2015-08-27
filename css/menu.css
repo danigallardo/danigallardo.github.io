@@ -1,0 +1,15 @@
+.mainNav{float:left;}
+.nav, .nav ul { margin:0; padding:0; list-style-type:none; list-style-position:outside; position:relative; line-height:1.5em; padding-top:20px; }
+.nav a { display:block; padding:0px 8px; font-size:11px; text-decoration:none; color:#a6a8ab; font-weight:bold; font-family:'AvenirNextLTPro-DemiCn' Tahoma;}
+.nav a:hover, .nav li.current a {color:#ffffff; }
+.nav li { float:left; position:relative; }
+.nav li ul li.parent a { }
+.nav ul { position:absolute; display:block; background-image:none; z-index:9; }
+.nav li ul { z-index:999; position:absolute; }
+.nav li ul a { width:12em; height:auto; float:left; font-size:12px; padding:7px 16px; background-color:#ececec; border-bottom:1px solid #d0d0d0; color:#fca800; }
+.nav li ul a:hover { background-color:#fca800; color:#ffffff }
+.nav li ul a span { padding:3px 0 }
+.nav ul ul { top:auto; }
+.nav li ul ul { left:12em; margin:0px 0 0 10px; }
+.nav li:hover ul ul, .nav li:hover ul ul ul, .nav li:hover ul ul ul ul { display:none; }
+.nav li:hover ul, .nav li li:hover ul, .nav li li li:hover ul, .nav li li li li:hover ul { display:block; }
