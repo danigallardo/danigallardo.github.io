@@ -1,0 +1,26 @@
+ul.bjqs{position:relative;list-style:none;padding:0;margin:0;display:none;}
+li.bjqs-slide{position:absolute;display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;position:absolute;top:50%;width:100%;}
+ul.bjqs-controls.v-centered li.bjqs-first{display:none;}
+ul.bjqs-controls.v-centered li.bjqs-next{float:right;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;background:url("arrows.png") -25px 0 no-repeat;height:40px;width:25px;text-indent:9999px;}
+ul.bjqs-controls.v-centered li.bjqs-prev{padding-left:10px;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;background:url("arrows.png") 0 0 no-repeat;height:40px;width:25px;text-indent:9999px;}
+ul.bjqs-controls.v-centered li.bjqs-last{display:none;}
+ul.bjqs,
+ul.bjqs-controls.v-centered li.bjqs-next,
+ul.bjqs-controls.v-centered li.bjqs-next a,
+ul.bjqs-controls.v-centered li.bjqs-prev,
+ul.bjqs-controls.v-centered li.bjqs-prev a{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none;}
+ul.bjqs-controls li{float:left;width:auto !important;overflow:hidden;padding:7px 8px 8px 3px;}
+ul.bjqs-controls li a{float:left;color:#746f68;font-size:11px;text-decoration:none;font-family:'FuturaStdBook';}
+ul.bjqs-controls li.bjqs-next a{right:0;}
+ul.bjqs-controls li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style:none;padding:0;margin:0;width:100%;display:none;}
+ol.bjqs-markers.h-centered{text-align:center;position:absolute;left:-320px !important;top:411px;font-family:'FuturaStdBook';color:hsl(35, 5%, 43%);font-size:11px;}
+ol.bjqs-markers li{display:inline;height:auto !important;}
+ol.bjqs-markers li a{display:inline-block;color:#000000;color:hsl(35, 5%, 43%);padding:0 8px 0 0;text-decoration:none;font-size:11px;}
+ol.bjqs-markers li.active-marker a{color:#000000;font-size:12px;}
+p.bjqs-caption{display:none;width:300px;margin:0;position:absolute;top:380px;left:-320px;text-align:left;color:hsl(35, 5%, 43%);font-size:11px;font-family:'FuturaStdBook';line-height:13px;white-space:normal;}
+.current-markers{top:465px;position:absolute;left:-320px;color:hsl(35, 5%, 43%);font-size:12px;font-family:'FuturaStdBook';line-height:13px;}
+.current-markers .x_of{color:#000000;}
