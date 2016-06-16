@@ -1,0 +1,142 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,<<<<<<< HEAD
+table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;font-weight:normal;-webkit-font-smoothing:subpixel-antialiased;-moz-font-smoothing:subpixel-antialiased;-o-font-smoothing:subpixel-antialiased}
+.clear{clear:both;margin:0!important;padding:0!important}
+@font-face{font-family:'FuturaStdMedium';src:url(fonts/futurastd-medium.eot);src:url(fonts/futurastd-medium.eot) format("embedded-opentype"),url(fonts/futurastd-medium.woff) format("woff"),url(fonts/futurastd-medium.ttf) format("truetype"),url(fonts/futurastd-medium.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdMediumOblique';src:url(fonts/futurastd-mediumoblique.eot);src:url(fonts/futurastd-mediumoblique.eot) format("embedded-opentype"),url(fonts/futurastd-mediumoblique.woff) format("woff"),url(fonts/futurastd-mediumoblique.ttf) format("truetype"),url(fonts/futurastd-mediumoblique.svg) format("svg")}
+@font-face{font-family:'FuturaStdBook';src:url(fonts/futurastd-book.eot);src:url(fonts/futurastd-book.eot) format("embedded-opentype"),url(fonts/futurastd-book.woff) format("woff"),url(fonts/futurastd-book.ttf) format("truetype"),url(fonts/futurastd-book.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdHeavy';src:url(fonts/futurastd-heavy.eot);src:url(fonts/futurastd-heavy.eot) format("embedded-opentype"),url(fonts/futurastd-heavy.woff) format("woff"),url(fonts/futurastd-heavy.ttf) format("truetype"),url(fonts/futurastd-heavy.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdBold';src:url(fonts/futurastd-bold.eot);src:url(fonts/futurastd-bold.eot) format("embedded-opentype"),url(fonts/futurastd-bold.woff) format("woff"),url(fonts/futurastd-bold.ttf) format("truetype"),url(fonts/futurastd-bold.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdLight';src:url(fonts/futurastd-light.eot);src:url(fonts/futurastd-light.eot) format("embedded-opentype"),url(fonts/futurastd-light.woff) format("woff"),url(fonts/futurastd-light.ttf) format("truetype"),url(fonts/futurastd-light.svg) format("svg");font-weight:400}
+body{margin:auto;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%)}
+.site{margin:0 auto;top:0;left:0;bottom:0;right:0;position:relative;display:table-cell;vertical-align:middle}
+a{color:#7c7871;text-decoration:none}
+.main-content{backface-visibility:hidden}
+.main-content,.footer{margin:20px auto;width:auto;overflow:hidden;text-align:center;display:block}
+.contact-content,.about-content{display:block;position:relative;width:auto}
+.footer{margin:20px auto;max-width:1224px}
+.footer-left ul{list-style:none}
+.scroll-pane{width:100%;height:auto;overflow:auto;overflow-y:hidden}
+ul#main-content{zoom:1;*display:inline;list-style:none;display:inline-block;white-space:nowrap;height:auto;margin:0;padding:0}
+ul#main-content >li{height:562px;width:auto;margin:-1px;padding:0;display:inline-block;zoom:1;white-space:nowrap;vertical-align:top;zoom:1;*display:inline}
+.content-block{height:522px;cursor:pointer;width:268px;position:relative;padding:20px;overflow:hidden;float:left;display:inline-block;background:#333}
+.content-caption{z-index:2;position:relative}
+.content-block h4{text-align:center;font-family:'FuturaStdMedium';font-size:15px;color:#fff;margin-top:30px;letter-spacing:1px;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+.content-block span{font-size:8px}
+hr.design-line{width:46px;border:none;margin:15px auto;height:1px;background-color:#fff}
+.block-title{text-align:center;font-family:'FuturaStdMedium';font-size:27px;color:#fff;letter-spacing:2px;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+.content-block .description{text-align:center;font-family:'FuturaStdMedium';font-size:11px;color:#fff;margin-bottom:10px;letter-spacing:.1em;z-index:2}
+.content-block .sub-title{margin-top:5px;text-align:center;font-family:'FuturaStdMedium';font-size:13px;color:#fff;text-transform:uppercase;text-decoration:underline}
+.content-block img{position:absolute;top:0;left:0;z-index:0}
+.content-block .ob-description{text-align:center;font-family:'FuturaStdMediumOblique';font-size:9px;color:#fff;line-height:14px;margin:10px 0}
+.content-block .overlay{height:562px;width:100%;display:none;position:absolute;top:0;left:0;background:#333;opacity:.6;filter:alpha(opacity=60);z-index:1}
+.sub-content-block{display:none;padding:0 2px 0 1px;float:left;height:auto}
+.sub-content-block ol{list-style:none;display:inline-block;white-space:nowrap;height:auto;margin:0;padding:0;width:auto;zoom:1;*display:inline}
+.main-content .sub-content-block ol> li{height:562px;width:auto;margin:0 -3px 0 0;padding:0;display:inline-block;zoom:1;white-space:nowrap;vertical-align:top;background:#fff;overflow:hidden}
+.main-content .sub-content-block ol> li .sub-content-menu{float:left;display:block;width:100px;height:562px;cursor:pointer;overflow:hidden;position:relative}
+.main-content .sub-content-menu > .overlay{overflow:hidden;height:560px;width:100px;background:#626262;z-index:1;position:absolute}
+.main-content .sub-content-menu img{position:absolute;top:0;left:0}
+.main-content .sub-content-menu .sub-content-title{font-family:'FuturaStdMedium';font-size:9px;color:#fff;position:absolute;width:100%;text-align:center;letter-spacing:.11em;z-index:1;white-space:normal;padding:2px;line-height:14px;padding:31em 0}
+li.bjqs-slide img{margin-top:45px}
+.content-detail-page{top:0;background:#fff}
+.footer-left h5{float:left;font-family:'FuturaStdHeavy';font-size:27px;color:#32302d;margin:0 30px 0 0;padding:0}
+.footer-left h5 a{background:url(../images/Acollective_logo.gif) no-repeat 0 0;height:31px;width:139px;text-indent:-999em;display:block;margin-left:-20px}
+.footer-left ul>li{float:left;display:inline-block;margin-right:30px;line-height:30px;top:0;padding-top:0}
+.footer-left ul>li a{font-family:'FuturaStdMedium';font-size:13px;color:#7c7871;text-decoration:none;display:block}
+.footer-right{float:right}
+.address{font-family:'FuturaStdBook';font-size:9px;color:#7c7871;text-decoration:none;margin-right:10px;padding-top:10px;float:left}
+.address b{font-family:'FuturaStdBold';font-weight:400}
+.facebook,.archi-logo{float:left;margin-left:20px;margin-bottom:20px}
+.facebook{padding-top:3px}
+.facebook a{text-indent:-999em;display:block;background-image:url(../images/icon-fb.png);height:25px;width:25px}
+.archi-logo a{text-indent:-999em;display:block;background-image:url(../images/archi-logo.png);height:40px;width:40px}
+.content-left{width:450px;margin-right:1px;height:500px;padding:20px 10px;position:relative;display:inline-block;white-space:normal}
+.content-right{width:450px;height:500px;padding:20px 10px;position:relative;display:inline-block;vertical-align:top;white-space:nowrap}
+form{position:absolute;left:50px;top:70px;vertical-align:top;text-align:left}
+form .form-label{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;text-decoration:underline;text-transform:uppercase;margin:15px 0 10px;text-align:left}
+form input{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;border:1px solid #dbdbdb;height:20px;line-height:26px;width:300px;padding:5px;outline:none}
+form textarea{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;border:1px solid #dbdbdb;height:100px;line-height:26px;width:300px;padding:5px;resize:none;outline:none}
+form button[type="submit"]{font-family:'FuturaStdMedium';font-size:11px;text-transform:uppercase;background-color:#34312e;border:none;color:#fff;height:30px;width:100px;line-height:26px;outline:none;margin-top:20px;cursor:pointer}
+#msg{font-size:11px;font-family:'FuturaStdBook';padding:0}
+.error,.warning,.success{font-size:11px;font-family:'FuturaStdBook';display:block;padding:2px 0 0;white-space:normal}
+.error{color:red}
+.warning{color:#FF1B07}
+=======
+table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;font-weight:normal;-webkit-font-smoothing:subpixel-antialiased;-moz-font-smoothing:subpixel-antialiased;-o-font-smoothing:subpixel-antialiased}
+.clear{clear:both;margin:0!important;padding:0!important}
+@font-face{font-family:'FuturaStdMedium';src:url(fonts/futurastd-medium.eot);src:url(fonts/futurastd-medium.eot) format("embedded-opentype"),url(fonts/futurastd-medium.woff) format("woff"),url(fonts/futurastd-medium.ttf) format("truetype"),url(fonts/futurastd-medium.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdMediumOblique';src:url(fonts/futurastd-mediumoblique.eot);src:url(fonts/futurastd-mediumoblique.eot) format("embedded-opentype"),url(fonts/futurastd-mediumoblique.woff) format("woff"),url(fonts/futurastd-mediumoblique.ttf) format("truetype"),url(fonts/futurastd-mediumoblique.svg) format("svg")}
+@font-face{font-family:'FuturaStdBook';src:url(fonts/futurastd-book.eot);src:url(fonts/futurastd-book.eot) format("embedded-opentype"),url(fonts/futurastd-book.woff) format("woff"),url(fonts/futurastd-book.ttf) format("truetype"),url(fonts/futurastd-book.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdHeavy';src:url(fonts/futurastd-heavy.eot);src:url(fonts/futurastd-heavy.eot) format("embedded-opentype"),url(fonts/futurastd-heavy.woff) format("woff"),url(fonts/futurastd-heavy.ttf) format("truetype"),url(fonts/futurastd-heavy.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdBold';src:url(fonts/futurastd-bold.eot);src:url(fonts/futurastd-bold.eot) format("embedded-opentype"),url(fonts/futurastd-bold.woff) format("woff"),url(fonts/futurastd-bold.ttf) format("truetype"),url(fonts/futurastd-bold.svg) format("svg");font-weight:400}
+@font-face{font-family:'FuturaStdLight';src:url(fonts/futurastd-light.eot);src:url(fonts/futurastd-light.eot) format("embedded-opentype"),url(fonts/futurastd-light.woff) format("woff"),url(fonts/futurastd-light.ttf) format("truetype"),url(fonts/futurastd-light.svg) format("svg");font-weight:400}
+body{margin:auto;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%)}
+.site{margin:0 auto;top:0;left:0;bottom:0;right:0;position:relative;display:table-cell;vertical-align:middle}
+a{color:#7c7871;text-decoration:none}
+.main-content{backface-visibility:hidden}
+.main-content,.footer{margin:20px auto;width:auto;overflow:hidden;text-align:center;display:block}
+.contact-content,.about-content{display:block;position:relative;width:auto}
+.footer{margin:20px auto;max-width:1224px}
+.footer-left ul{list-style:none}
+.scroll-pane{width:100%;height:auto;overflow:auto;overflow-y:hidden}
+ul#main-content{zoom:1;*display:inline;list-style:none;display:inline-block;white-space:nowrap;height:auto;margin:0;padding:0}
+ul#main-content >li{height:562px;width:auto;margin:-1px;padding:0;display:inline-block;zoom:1;white-space:nowrap;vertical-align:top;zoom:1;*display:inline}
+.content-block{height:522px;cursor:pointer;width:268px;position:relative;padding:20px;overflow:hidden;float:left;display:inline-block;background:#333}
+.content-caption{z-index:2;position:relative}
+.content-block h4{text-align:center;font-family:'FuturaStdMedium';font-size:15px;color:#fff;margin-top:30px;letter-spacing:1px;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+.content-block span{font-size:8px}
+hr.design-line{width:46px;border:none;margin:15px auto;height:1px;background-color:#fff}
+.block-title{text-align:center;font-family:'FuturaStdMedium';font-size:27px;color:#fff;letter-spacing:2px;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+.content-block .description{text-align:center;font-family:'FuturaStdMedium';font-size:11px;color:#fff;margin-bottom:10px;letter-spacing:.1em;z-index:2}
+.content-block .sub-title{margin-top:5px;text-align:center;font-family:'FuturaStdMedium';font-size:13px;color:#fff;text-transform:uppercase;text-decoration:underline}
+.content-block img{position:absolute;top:0;left:0;z-index:0}
+.content-block .ob-description{text-align:center;font-family:'FuturaStdMediumOblique';font-size:9px;color:#fff;line-height:14px;margin:10px 0}
+.content-block .overlay{height:562px;width:100%;display:none;position:absolute;top:0;left:0;background:#333;opacity:.6;filter:alpha(opacity=60);z-index:1}
+.sub-content-block{display:none;padding:0 2px 0 1px;float:left;height:auto}
+.sub-content-block ol{list-style:none;display:inline-block;white-space:nowrap;height:auto;margin:0;padding:0;width:auto;zoom:1;*display:inline}
+.main-content .sub-content-block ol> li{height:562px;width:auto;margin:0 -3px 0 0;padding:0;display:inline-block;zoom:1;white-space:nowrap;vertical-align:top;background:#fff;overflow:hidden}
+.main-content .sub-content-block ol> li .sub-content-menu{float:left;display:block;width:100px;height:562px;cursor:pointer;overflow:hidden;position:relative}
+.main-content .sub-content-menu > .overlay{overflow:hidden;height:560px;width:100px;background:#626262;z-index:1;position:absolute}
+.main-content .sub-content-menu img{position:absolute;top:0;left:0}
+.main-content .sub-content-menu .sub-content-title{font-family:'FuturaStdMedium';font-size:9px;color:#fff;position:absolute;width:100%;text-align:center;letter-spacing:.11em;z-index:1;white-space:normal;padding:2px;line-height:14px;padding:31em 0}
+li.bjqs-slide img{margin-top:45px}
+.content-detail-page{top:0;background:#fff}
+.footer-left h5{float:left;font-family:'FuturaStdHeavy';font-size:27px;color:#32302d;margin:0 30px 0 0;padding:0}
+.footer-left h5 a{background:url(../images/Acollective_logo.gif) no-repeat 0 0;height:31px;width:139px;text-indent:-999em;display:block;margin-left:-20px}
+.footer-left ul>li{float:left;display:inline-block;margin-right:30px;line-height:30px;top:0;padding-top:0}
+.footer-left ul>li a{font-family:'FuturaStdMedium';font-size:13px;color:#7c7871;text-decoration:none;display:block}
+.footer-right{float:right}
+.address{font-family:'FuturaStdBook';font-size:9px;color:#7c7871;text-decoration:none;margin-right:10px;padding-top:10px;float:left}
+.address b{font-family:'FuturaStdBold';font-weight:400}
+.facebook,.archi-logo{float:left;margin-left:20px;margin-bottom:20px}
+.facebook{padding-top:3px}
+.facebook a{text-indent:-999em;display:block;background-image:url(../images/icon-fb.png);height:25px;width:25px}
+.archi-logo a{text-indent:-999em;display:block;background-image:url(../images/archi-logo.png);height:40px;width:40px}
+.content-left{width:450px;margin-right:1px;height:500px;padding:20px 10px;position:relative;display:inline-block;white-space:normal}
+.content-right{width:450px;height:500px;padding:20px 10px;position:relative;display:inline-block;vertical-align:top;white-space:nowrap}
+form{position:absolute;left:50px;top:70px;vertical-align:top;text-align:left}
+form .form-label{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;text-decoration:underline;text-transform:uppercase;margin:15px 0 10px;text-align:left}
+form input{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;border:1px solid #dbdbdb;height:20px;line-height:26px;width:300px;padding:5px;outline:none}
+form textarea{color:#34312e;font-family:'FuturaStdMedium';font-size:11px;border:1px solid #dbdbdb;height:100px;line-height:26px;width:300px;padding:5px;resize:none;outline:none}
+form button[type="submit"]{font-family:'FuturaStdMedium';font-size:11px;text-transform:uppercase;background-color:#34312e;border:none;color:#fff;height:30px;width:100px;line-height:26px;outline:none;margin-top:20px;cursor:pointer}
+#msg{font-size:11px;font-family:'FuturaStdBook';padding:0}
+.error,.warning,.success{font-size:11px;font-family:'FuturaStdBook';display:block;padding:2px 0 0;white-space:normal}
+.error{color:red}
+.warning{color:#FF1B07}
+>>>>>>> origin/master
+.success{color:#080}
+.contact-content .content-left .page-content,.about-content .content-left .page-content{font-family:'FuturaStdLight';font-size:30px;border:none;color:#34312e;width:450px;position:absolute;top:180px;left:30px}
+.about-content .content-left .page-content{position:absolute;top:265px;left:30px}
+.about-content .content-right p{font-family:'FuturaStdBook';font-size:11px;color:#746f68;line-height:40px;padding:0 25px 0 0;margin-top:180px;text-align:left;white-space:normal}
+.detail-content{display:none;position:relative;white-space:nowrap;top:0;overflow:inherit!important}
+.detail-content .content-left{width:285px;margin:10px 10px 10px 20px;height:562px;text-align:left;padding:10px;position:relative;display:inline-block;white-space:normal}
+.detail-content .content-title{font-family:'FuturaStdLight';font-size:30px;color:#34312e;line-height:35px;margin-top:35px}
+.detail-content .content-year,.detail-content .content-description p{font-family:'FuturaStdBook';font-size:11px;color:#34312e;line-height:16px;margin:10px 0}
+.detail-content .content-year,.detail-content .content-description .content-preu p{font-family:'FuturaStdBook';font-size:22px;color:#34312e;line-height:16px;margin:10px 0}
+.detail-content .content-year,.detail-content .content-description .content-condicions p{font-family:'FuturaStdBook';font-size:8px;color:#34312e;line-height:16px;margin:10px 0}
+.btn-close-sub-content-block,.btn-close-content-detail{display:block;position:absolute;top:0;right:110px;background:url(../images/btn-close.png) no-repeat;height:32px;width:32px;cursor:pointer;z-index:2}
+.btn-close-sub-content-block{right:20px}
+.detail-content .content-right{width:866px;padding:0 10px;margin:0 10px 10px;position:relative;display:inline-block;vertical-align:top;white-space:nowrap;letter-spacing:1px}
+.detail-content .content-right ul{list-style:none;margin:0;padding:0}
+.detail-content .content-right ul>li{float:left;width:766px}
+.design-by{float:left;padding-left:10px}
+.design-by a{background:url(../images/darling-logo.png) no-repeat 0 0;height:31px;width:21px;text-indent:-999em;display:block}
