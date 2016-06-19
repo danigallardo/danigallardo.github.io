@@ -1,4 +1,4 @@
-sudo a2enmod module_name
+sudo a2enmod expires
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
