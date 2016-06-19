@@ -505,6 +505,11 @@ li.bjqs-slide img{
 {
 	/*width:600px;*/
 }
+
+.superindice
+{font-size: 70%;
+vertical-align:super} 
+
 .footer-left h5
 {
 	float:left;
@@ -515,7 +520,6 @@ li.bjqs-slide img{
 	padding:0px;
 }
 .footer-left h5 a{
-	background:url(../images/Acollective_logo.gif) no-repeat 0 0px;
 	height: 31px;
 	width: 139px;
 	text-indent: -999em;
