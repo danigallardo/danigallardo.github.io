@@ -478,11 +478,12 @@ hr.design-line2
 .main-content .sub-content-menu  .sub-content-title
 { 
 	font-family: 'FuturaStdMedium';
-	font-size: 9px;
+	font-size: 11px;
 	color: #ffffff;
 	position:absolute;
 	width:100%;
 	text-align:center;
+	margin-top: -50px;
 	letter-spacing:.11em;
 	z-index:1;
 	white-space: normal;
@@ -493,7 +494,7 @@ hr.design-line2
 
 
 li.bjqs-slide img{
-	margin-top:45px;
+	margin-top:10px;
 }
 
 .content-detail-page{
@@ -554,7 +555,7 @@ vertical-align:super}
 .address
 {
 	font-family:'FuturaStdBook';
-	font-size:9px;
+	font-size:11px;
 	color:#7c7871;
 	text-decoration:none;
 	margin-right:10px;
@@ -743,11 +744,12 @@ form button[type="submit"]
 .about-content .content-right p
 {
 	font-family:'FuturaStdBook';
-	font-size:11px;
+	font-size:13px;
 	color:#746f68;
 	line-height:40px;
 	padding:0px 25px 0px 0px;
 	margin-top:180px;
+	margin-left:-30px;
 	text-align:left;
 	white-space: normal;
 }
@@ -778,16 +780,17 @@ form button[type="submit"]
 	font-size:30px;
 	color:#34312e;
 	line-height:35px;
-	margin-top:35px;
+	margin-top:-10px;
 }
 
 .detail-content .content-year, .detail-content .content-description p
 {
 	font-family:'FuturaStdBook';
-	font-size:11px;
+	font-size:12px;
 	color:#34312e;
-	line-height:16px;
+	line-height:18px;
 	margin:10px 0;
+
 }
 
 .detail-content .content-year, .detail-content .content-description .content-preu p
@@ -818,8 +821,8 @@ form button[type="submit"]
 {
 	display:block;
 	position:absolute;
-	top:0px;
-	right:110px;
+	top: 5px;
+	right:90px;
 	background:url(../images/btn-close.png) no-repeat;
 	height:32px;
 	width:32px;
