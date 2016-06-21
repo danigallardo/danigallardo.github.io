@@ -24,6 +24,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	-o-font-smoothing: subpixel-antialiased;
 }
 
+.contenedor
+{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
 .clear
 {
 	clear:both;
@@ -115,10 +121,18 @@ a{color:#7c7871; text-decoration:none;}
 	/*margin:20px auto;*/
 }
 
-.main-content, .footer
+.main-content
+{
+	margin:0 auto;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	display:block; 
+}
+.footer
 {
 	margin:20px auto;
-	width:auto;
+	width:100%;
 	overflow:hidden;
 	text-align:center;
 	display:block; 
@@ -132,6 +146,9 @@ a{color:#7c7871; text-decoration:none;}
 .footer{
 	margin:20px auto;
 	max-width:1224px;
+}
+.contenedor{
+	width: 75%;
 }
 
 .footer-left ul
@@ -160,7 +177,8 @@ ul#main-content
 	list-style: none;
 	display: inline-block;
 	white-space: nowrap;
-	height: auto;
+	height: 100%;
+	width: auto;
 	margin: 0px;
 	padding: 0px;
 	
@@ -168,7 +186,7 @@ ul#main-content
 
 ul#main-content >li
 {
-	height: 562px;
+	height: 100%;
 	width: auto;
 	margin: -1px;
 	padding: 0px;
@@ -502,11 +520,6 @@ li.bjqs-slide img{
 	background:#ffffff;
 }
 
-.footer-left
-{
-	/*width:600px;*/
-}
-
 .superindice
 {font-size: 70%;
 vertical-align:super} 
@@ -537,6 +550,7 @@ vertical-align:super}
 	line-height:30px;
 	top:0;
 	padding-top:0px;
+	width: auto;
 	
 }
 .footer-left ul>li a
@@ -870,3 +884,4 @@ form button[type="submit"]
 	text-indent: -999em;
 	display: block;
 }
+
