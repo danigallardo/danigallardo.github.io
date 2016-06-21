@@ -30,6 +30,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+
+
+@media screen and (max-width: 1029px) {
+	.main-content{
+		width: 99%;
+	}
+	.footer{
+		width: 99%;
+	}
+}
+
+@media screen and (min-width: 1029px) {
+	.main-content{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+}
+
+
+
 .clear
 {
 	clear:both;
@@ -121,14 +144,7 @@ a{color:#7c7871; text-decoration:none;}
 	/*margin:20px auto;*/
 }
 
-.main-content
-{
-	margin:0 auto;
-	width:100%;
-	overflow:hidden;
-	text-align:center;
-	display:block; 
-}
+
 .footer
 {
 	margin:20px auto;
@@ -147,10 +163,6 @@ a{color:#7c7871; text-decoration:none;}
 	margin:20px auto;
 	max-width:1224px;
 }
-.contenedor{
-	width: 75%;
-}
-
 .footer-left ul
 {
 	list-style:none; 
@@ -469,7 +481,7 @@ hr.design-line2
 	overflow:hidden;
 }
 
-.main-content .sub-content-block  ol> li .sub-content-menu{
+.sub-content-block  ol> li .sub-content-menu{
 	float:left;
 	display:block;
 	width:100px;
@@ -478,7 +490,7 @@ hr.design-line2
 	overflow:hidden;
 	position:relative;
 }
-.main-content .sub-content-menu > .overlay{
+.sub-content-menu > .overlay{
 	overflow: hidden;
 	height: 560px;
 	width: 100px;
@@ -487,13 +499,13 @@ hr.design-line2
 	position: absolute;
 }
 
-.main-content .sub-content-menu img{
+.sub-content-menu img{
  	position:absolute;
 	top:0;
 	left: 0;
 }
 
-.main-content .sub-content-menu  .sub-content-title
+.sub-content-menu  .sub-content-title
 { 
 	font-family: 'FuturaStdMedium';
 	font-size: 11px;
