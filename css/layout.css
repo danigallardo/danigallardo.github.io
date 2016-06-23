@@ -221,7 +221,6 @@ hr.design-line2{
 	font-size:30px;
 	color:#fff;
 	letter-spacing:2px;
-
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;}
@@ -248,7 +247,7 @@ hr.design-line2{
 	font-size:13px;
 	color:#fff;
 	text-transform:uppercase;
-	text-decoration:underline;<
+	text-decoration:underline;}
 .content-miniblock .sub-title{
 	margin-top:5px;
 	text-align:center;
